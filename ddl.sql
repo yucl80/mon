@@ -72,4 +72,4 @@ CREATE TABLE `tag` (
   PRIMARY KEY (`key`,`value`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 INT `fk_metric_data_metric` FOREIGN KEY (`metric_id`) REFERENCES `metric` (`metric_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
